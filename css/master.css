@@ -1,0 +1,109 @@
+/* general formatting */
+
+.top {
+    text-align: center;    
+}
+
+#author-logo {
+    height: 100px;
+    border: 2px solid black;
+    background-color: #FFFFFF;
+    border-radius:50%;
+    align-items: center;
+    margin-top: 20px;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: whitesmoke;
+    margin: auto 30px;
+    background-color: grey;
+}
+
+#contact {
+    font-style: italic;
+    font-size: .75em;
+    margin-bottom: 20px;
+}
+
+div {
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.3888888889em;
+    margin-top: 1.8em;
+    margin-bottom: 1.2em;
+}
+
+a {
+    color: lightgray;
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+a:hover {
+    color: lightskyblue;
+    text-decoration: none;
+}
+
+/* columns */
+    * {
+    box-sizing: border-box;
+    }
+    
+    .column {
+    float: left;
+    width: 50%;
+    padding-left: 90px;
+    padding-right: 90px;
+    }
+
+
+
+    .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+
+/* table */
+
+    table {
+        border-collapse: collapse;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+    
+    th {
+        width: 150px;
+    }
+
+h3 {
+    font-weight: 600;
+}
+
+h4 {
+    font-size: .9em;
+}
+
+.job-logo {
+    float: left;
+    margin-right: 10px;
+    height: 35px;
+}
+
+main {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: lavender;
+}
+
+#footer-content {
+    margin-top: 40px;
+    margin-left: 40px;
+    color: whitesmoke;
+    font-size: large;
+}
